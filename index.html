@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spam detection</title>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <main>
+        <ul id="list-of-messages">
+            <li>
+                <section class="message-content">
+                    Offer is secret
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-1" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-1" value="1">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Click secret link
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-2" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-2" value="1">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Secret sports link
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-3" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-3" value="1">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Play sports today
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-4" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-4" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Went play sports
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-5" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-5" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Secret sports event
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-6" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-6" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Sports is today
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-7" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-7" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Sports cost money
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-8" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-8" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <!-- <li>
+                <section class="message-content">
+                    Example 1
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-1" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-1" value="1">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Example 2
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-2" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-2" value="1">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Example 3
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-3" value="0">spam</input>
+                    <input type="radio" name="spam-checkbox-3" value="1" checked="checked">not spam</input>
+                </section>
+            </li>
+            <li>
+                <section class="message-content">
+                    Example 4
+                </section>
+                <section class="message-type">
+                    <input type="radio" name="spam-checkbox-4" value="0" checked="checked">spam</input>
+                    <input type="radio" name="spam-checkbox-4" value="1">not spam</input>
+                </section>
+            </li>
+        </ul> -->
+        <section>
+            <button type="button" id="train-agent-button" title="Use the current classification of the messages to train the intelligent agent">Train agent</button>
+            <textarea id="message-to-test" maxlength="1000" placeholder="Enter message to check if it is spam"></textarea>
+            <button type="button" id="submit-message-button" title="Send the message as input to the intelligent agent to determine wheter it is spam or not">Submit message</button>
+        </section>
+    </main>
+    <script type="text/javascript" src="js/PrototypeAssociativeArray.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
