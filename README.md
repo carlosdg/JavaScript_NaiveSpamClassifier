@@ -1,5 +1,6 @@
 # JavaScript_NaiveSpamClassifier
 
+<pre>
 Brief description:
 	Naive Bayes implementation for classifying messages as spam or not spam.
 
@@ -45,3 +46,4 @@ Implementation details:
 	The way that we did it was not calculating the whole expression, but only the numerator of P(spam=true | message="something")
 	and P(spam=false | message="something"). Because the denominators are the same and the two need to sum up to one, we
 	can just compare the numerators to give our answer.
+</pre>
