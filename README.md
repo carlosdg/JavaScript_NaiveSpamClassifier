@@ -1,4 +1,5 @@
 # JavaScript_NaiveSpamClassifier
+
 <pre>
 Brief description:
 	Naive Bayes implementation for classifying messages as spam or not spam.
