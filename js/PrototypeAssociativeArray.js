@@ -1,5 +1,6 @@
 "use strict";
 
+// TODO: use a hash table to implement it
 function AssociativeArray(){
     this.keys   = [];
     this.values = [];
